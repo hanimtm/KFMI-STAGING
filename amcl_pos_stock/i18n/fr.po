@@ -1,0 +1,238 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* amcl_pos_stock
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-30 13:16+0000\n"
+"PO-Revision-Date: 2021-12-30 13:16+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: amcl_pos_stock
+#. openerp-web
+#: code:addons/amcl_pos_stock/static/src/js/amcl_pos_stock.js:0
+#: code:addons/amcl_pos_stock/static/src/js/amcl_pos_stock.js:0
+#: code:addons/amcl_pos_stock/static/src/js/amcl_pos_stock.js:0
+#, python-format
+msgid "() is Out of Stock."
+msgstr "() Est en rupture de stock."
+
+#. module: amcl_pos_stock
+#: model:ir.model.fields.selection,name:amcl_pos_stock.selection__pos_config__show_stock_location__all
+msgid "All Warehouse"
+msgstr "Tout l'entrepôt"
+
+#. module: amcl_pos_stock
+#: model:ir.model.fields,field_description:amcl_pos_stock.field_pos_config__pos_allow_order
+msgid "Allow POS Order When Product is Out of Stock"
+msgstr "Autoriser la commande POS lorsque le produit est en rupture de stock"
+
+#. module: amcl_pos_stock
+#: model_terms:ir.ui.view,arch_db:amcl_pos_stock.custom_pos_config_extended_form_view
+msgid "Allow pos order when product is out of stock stock."
+msgstr "Autoriser la commande pos lorsque le produit est en rupture de stock."
+
+#. module: amcl_pos_stock
+#: model:ir.model.fields,field_description:amcl_pos_stock.field_product_product__available_quantity
+msgid "Available Quantity"
+msgstr "quantité disponible"
+
+#. module: amcl_pos_stock
+#: model_terms:ir.ui.view,arch_db:amcl_pos_stock.custom_pos_config_extended_form_view
+msgid "Check this to display stock in pos screen."
+msgstr "Cochez cette case pour afficher le stock dans l'écran pos."
+
+#. module: amcl_pos_stock
+#: model:ir.model.fields.selection,name:amcl_pos_stock.selection__pos_config__show_stock_location__specific
+msgid "Current Session Warehouse"
+msgstr "Entrepôt de session en cours"
+
+#. module: amcl_pos_stock
+#. openerp-web
+#: code:addons/amcl_pos_stock/static/src/xml/amcl_pos_stock.xml:0
+#, python-format
+msgid "Denied Order"
+msgstr "Commande refusée"
+
+#. module: amcl_pos_stock
+#. openerp-web
+#: code:addons/amcl_pos_stock/static/src/js/amcl_pos_stock.js:0
+#: code:addons/amcl_pos_stock/static/src/js/amcl_pos_stock.js:0
+#: code:addons/amcl_pos_stock/static/src/js/amcl_pos_stock.js:0
+#, python-format
+msgid "Deny Order"
+msgstr "Refuser la commande"
+
+#. module: bi_pos_stock
+#. openerp-web
+#: code:addons/bi_pos_stock/static/src/js/bi_pos_stock.js:0
+#: code:addons/bi_pos_stock/static/src/js/bi_pos_stock.js:0
+#: code:addons/bi_pos_stock/static/src/js/bi_pos_stock.js:0
+#, python-format
+msgid "Deny Order() is Out of Stock."
+msgstr "Refuser la commande () est en rupture de stock."
+
+#. module: bi_pos_stock
+#: model:ir.model.fields,field_description:bi_pos_stock.field_pos_config__pos_deny_order
+msgid "Deny POS Order When Product Qty is goes down to"
+msgstr "Refuser la commande POS lorsque la quantité de produit descend à"
+
+#. module: bi_pos_stock
+#: model_terms:ir.ui.view,arch_db:bi_pos_stock.custom_pos_config_extended_form_view
+msgid "Deny pos order"
+msgstr "Refuser la commande pos"
+
+#. module: bi_pos_stock
+#: model_terms:ir.ui.view,arch_db:bi_pos_stock.custom_pos_config_extended_form_view
+msgid "Deny pos order when product quanity goes down to the entered quantity."
+msgstr "Refuser la commande pos lorsque la quantité de produit descend à la quantité saisie."
+
+#. module: bi_pos_stock
+#: model:ir.model.fields,field_description:bi_pos_stock.field_pos_config__pos_display_stock
+msgid "Display Stock in POS"
+msgstr "Afficher le stock dans le point de vente"
+
+#. module: bi_pos_stock
+#. openerp-web
+#: code:addons/bi_pos_stock/static/src/js/bi_pos_stock.js:0
+#, python-format
+msgid "Empty Serial/Lot Number"
+msgstr "Numéro de série/lot vide"
+
+#. module: bi_pos_stock
+#. openerp-web
+#: code:addons/bi_pos_stock/static/src/js/bi_pos_stock.js:0
+#: code:addons/bi_pos_stock/static/src/js/bi_pos_stock.js:0
+#: code:addons/bi_pos_stock/static/src/js/bi_pos_stock.js:0
+#, python-format
+msgid "Error: Out of Stock"
+msgstr "Erreur : Rupture de stock"
+
+#. module: bi_pos_stock
+#: model:ir.model.fields.selection,name:bi_pos_stock.selection__pos_config__pos_stock_type__incoming
+msgid "Incoming Qty"
+msgstr "Quantité entrante"
+
+#. module: bi_pos_stock
+#: model:ir.model.fields,field_description:bi_pos_stock.field_pos_order__location_id
+msgid "Location"
+msgstr "Emplacement"
+
+#. module: bi_pos_stock
+#. openerp-web
+#: code:addons/bi_pos_stock/static/src/xml/bi_pos_stock.xml:0
+#, python-format
+msgid "Ok"
+msgstr "D'accord"
+
+#. module: bi_pos_stock
+#. openerp-web
+#: code:addons/bi_pos_stock/static/src/js/bi_pos_stock.js:0
+#, python-format
+msgid "One or more product(s) required serial/lot number."
+msgstr "Un ou plusieurs produit(s) ont besoin d'un numéro de série/lot."
+
+#. module: bi_pos_stock
+#. openerp-web
+#: code:addons/bi_pos_stock/static/src/xml/bi_pos_stock.xml:0
+#, python-format
+msgid "Ordered qty of One or more product(s) is more than available qty."
+msgstr "Qté commandée de Un ou plusieurs produit(s) est supérieur à la quantité disponible."
+
+#. module: bi_pos_stock
+#: model:ir.model.fields.selection,name:bi_pos_stock.selection__pos_config__pos_stock_type__outgoing
+msgid "Outgoing Qty"
+msgstr "Qté sortante"
+
+#. module: bi_pos_stock
+#: model:ir.model,name:bi_pos_stock.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "Configuration du point de vente"
+
+#. module: bi_pos_stock
+#: model:ir.model,name:bi_pos_stock.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "Commandes au point de vente"
+
+#. module: bi_pos_stock
+#: model:ir.model,name:bi_pos_stock.model_product_product
+msgid "Product"
+msgstr "Produit"
+
+#. module: bi_pos_stock
+#: model_terms:ir.ui.view,arch_db:bi_pos_stock.custom_pos_config_extended_form_view
+msgid "Product stock location type"
+msgstr "Type d'emplacement de stock de produits"
+
+#. module: bi_pos_stock
+#: model:ir.model.fields.selection,name:bi_pos_stock.selection__pos_config__pos_stock_type__available
+msgid "Qty Available"
+msgstr "Qté disponible"
+
+#. module: bi_pos_stock
+#: model:ir.model.fields.selection,name:bi_pos_stock.selection__pos_config__pos_stock_type__onhand
+msgid "Qty on Hand"
+msgstr "Qté en main"
+
+#. module: bi_pos_stock
+#: model:ir.model,name:bi_pos_stock.model_stock_quant
+msgid "Quants"
+msgstr "Quants"
+
+#. module: bi_pos_stock
+#: model:ir.model.fields,help:bi_pos_stock.field_pos_config__pos_stock_type
+msgid "Seller can display Different stock type in POS."
+msgstr "Le vendeur peut afficher un type de stock différent dans le point de vente."
+
+#. module: bi_pos_stock
+#: model:ir.model.fields,field_description:bi_pos_stock.field_pos_config__show_stock_location
+msgid "Show Stock Of"
+msgstr "Afficher le stock de"
+
+#. module: bi_pos_stock
+#: model_terms:ir.ui.view,arch_db:bi_pos_stock.custom_pos_config_extended_form_view
+msgid "Stock Configuration in POS"
+msgstr "Configuration des stocks dans POS"
+
+#. module: bi_pos_stock
+#: model:ir.model.fields,field_description:bi_pos_stock.field_pos_config__stock_location_id
+msgid "Stock Location"
+msgstr "Emplacement des stocks"
+
+#. module: bi_pos_stock
+#: model_terms:ir.ui.view,arch_db:bi_pos_stock.custom_pos_config_extended_form_view
+msgid "Stock Location Configuration"
+msgstr "Configuration de l'emplacement de stock"
+
+#. module: bi_pos_stock
+#: model:ir.model.fields,field_description:bi_pos_stock.field_pos_config__pos_stock_type
+#: model_terms:ir.ui.view,arch_db:bi_pos_stock.custom_pos_config_extended_form_view
+msgid "Stock Type"
+msgstr "Type d'action"
+
+#. module: bi_pos_stock
+#: model_terms:ir.ui.view,arch_db:bi_pos_stock.custom_pos_config_extended_form_view
+msgid "Stock location used for inventory"
+msgstr "Lieu de stockage utilisé pour l'inventaire"
+
+#. module: bi_pos_stock
+#: model_terms:ir.ui.view,arch_db:bi_pos_stock.custom_pos_config_extended_form_view
+msgid "Stock type show up in POS screen."
+msgstr "Le type de stock s'affiche dans l'écran POS."
+
+#. module: bi_pos_stock
+#: code:addons/bi_pos_stock/models/bi_pos_stock.py:0
+#, python-format
+msgid ""
+"This transfer has been created from the point of sale session: <a href=# "
+"data-oe-model=pos.order data-oe-id=%d>%s</a>"
+msgstr ""
+"Ce virement a été créé à partir de la session point de vente : <a href=# "
+"data-oe-model=pos.order data-oe-id=%d>%s</a>"

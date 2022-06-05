@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_move_vendor_bill" model="ir.actions.act_window">
+        <field name="name">Bills</field>
+        <field name="res_model">account.move</field>
+        <field name="view_mode">tree,kanban,form</field>
+        <field name="view_id" ref="account.view_in_invoice_bill_tree"/>
+        <field name="search_view_id" ref="account.view_account_invoice_filter"/>
+        <field name="domain">[('move_type', '=', 'in_invoice'),('create_uid','=',uid)]</field>
+        <field name="context">{'default_move_type': 'in_invoice'}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create a vendor bill
+            </p>
+            <p>
+                Create invoices, register payments and keep track of the discussions with your vendors.
+            </p>
+        </field>
+    </record>
+
+    <record id="purchase_order_view_form_inherit" model="ir.ui.view">
+        <field name="name">purchase.order.form.inherit</field>
+        <field name="model">purchase.order</field>
+        <field name="inherit_id" ref="purchase.purchase_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[hasclass('oe_button_box')]" position="inside">
+                <field name="active" invisible="1"/>
+                <button name="toggle_active" type="object"
+                        class="oe_stat_button" icon="fa-check-square"
+                        style="color:green; font-size:15px;"
+                        string="Active" widget="boolean_button"
+                        attrs="{'invisible':[('active', '=', True)]}"
+                        groups="purchase.group_purchase_manager"
+                />
+                <button name="toggle_archive" type="object"
+                        class="oe_stat_button" icon="fa-exclamation-triangle"
+                        style="color:red; font-size:15px;"
+                        string="Archive" widget="boolean_button"
+                        attrs="{'invisible':[('active', '=', False)]}"
+                        groups="purchase.group_purchase_manager"
+                />
+            </xpath>
+
+        </field>
+    </record>
+
+     <record id="purchase_order_search_inherit" model="ir.ui.view">
+        <field name="name">purchase.order.list.select.inherit</field>
+        <field name="model">purchase.order</field>
+        <field name="inherit_id" ref="purchase.view_purchase_order_filter"/>
+        <field name="arch" type="xml">
+            <xpath expr="//filter[@name='approved']" position="after">
+                <filter string="Archived" name="inactive" domain="[('active', '=', False)]"/>
+            </xpath>
+        </field>
+    </record>
+
+
+    <menuitem id="menu_action_move_vendor_bill" action="action_move_vendor_bill" sequence="4"
+              parent="purchase.menu_procurement_management"/>
+</odoo>

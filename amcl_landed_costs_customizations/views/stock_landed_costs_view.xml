@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+       <!-- Inherit Form View to Modify it -->
+       <record id="view_stock_landed_cost_form_inherit" model="ir.ui.view">
+           <field name="name">view.stock.landed.cost.form.inherit</field>
+           <field name="model">stock.landed.cost</field>
+           <field name="inherit_id" ref="stock_landed_costs.view_stock_landed_cost_form"/>
+           <field name="arch" type="xml">
+               <xpath expr="//field[@name='valuation_adjustment_lines']/tree/field[@name='former_cost']" position="after">
+                   <field name="unit_former_cost"/>
+               </xpath>
+               <xpath expr="//field[@name='valuation_adjustment_lines']/tree/field[@name='final_cost']" position="after">
+                   <field name="unit_final_cost"/>
+               </xpath>
+               <xpath expr="//field[@name='valuation_adjustment_lines']/tree/field[@name='additional_landed_cost']" position="after">
+                   <field name="unit_additional_landed_cost"/>
+               </xpath>
+           </field>
+       </record>
+
+      <record id="purchase.purchase_user_account_move_line_rule" model="ir.rule">
+        <field name="name">Purchase User Account Move Line</field>
+        <field name="model_id" ref="account.model_account_move_line"/>
+        <field name="domain_force">[('move_id.move_type', 'in', ('in_invoice', 'in_refund', 'in_receipt','entry'))]</field>
+        <field name="groups" eval="[(4, ref('purchase.group_purchase_user'))]"/>
+    </record>
+    <record id="purchase.purchase_user_account_move_rule" model="ir.rule">
+        <field name="name">Purchase User Account Move</field>
+        <field name="model_id" ref="account.model_account_move"/>
+        <field name="domain_force">[('move_type', 'in', ('in_invoice', 'in_refund', 'in_receipt','entry'))]</field>
+        <field name="groups" eval="[(4, ref('purchase.group_purchase_user'))]"/>
+    </record>
+
+    </data>
+</odoo>

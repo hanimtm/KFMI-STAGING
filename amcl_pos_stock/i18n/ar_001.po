@@ -1,0 +1,238 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* amcl_pos_stock
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-30 13:14+0000\n"
+"PO-Revision-Date: 2021-12-30 13:14+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: amcl_pos_stock
+#. openerp-web
+#: code:addons/amcl_pos_stock/static/src/js/amcl_pos_stock.js:0
+#: code:addons/amcl_pos_stock/static/src/js/amcl_pos_stock.js:0
+#: code:addons/amcl_pos_stock/static/src/js/amcl_pos_stock.js:0
+#, python-format
+msgid "() is Out of Stock."
+msgstr "() غير متوفر بالمخزون."
+
+#. module: amcl_pos_stock
+#: model:ir.model.fields.selection,name:amcl_pos_stock.selection__pos_config__show_stock_location__all
+msgid "All Warehouse"
+msgstr "كل المستودعات"
+
+#. module: amcl_pos_stock
+#: model:ir.model.fields,field_description:amcl_pos_stock.field_pos_config__pos_allow_order
+msgid "Allow POS Order When Product is Out of Stock"
+msgstr "السماح بطلب نقاط البيع عندما يكون المنتج غير متوفر"
+
+#. module: amcl_pos_stock
+#: model_terms:ir.ui.view,arch_db:amcl_pos_stock.custom_pos_config_extended_form_view
+msgid "Allow pos order when product is out of stock stock."
+msgstr "السماح بأمر نقاط البيع عندما يكون المنتج غير متوفر بالمخزون."
+
+#. module: amcl_pos_stock
+#: model:ir.model.fields,field_description:amcl_pos_stock.field_product_product__available_quantity
+msgid "Available Quantity"
+msgstr "الكمية المتوفرة"
+
+#. module: amcl_pos_stock
+#: model_terms:ir.ui.view,arch_db:amcl_pos_stock.custom_pos_config_extended_form_view
+msgid "Check this to display stock in pos screen."
+msgstr "حدد هذا لعرض المخزون في شاشة نقاط البيع."
+
+#. module: amcl_pos_stock
+#: model:ir.model.fields.selection,name:amcl_pos_stock.selection__pos_config__show_stock_location__specific
+msgid "Current Session Warehouse"
+msgstr "مستودع الجلسة الحالية"
+
+#. module: amcl_pos_stock
+#. openerp-web
+#: code:addons/amcl_pos_stock/static/src/xml/amcl_pos_stock.xml:0
+#, python-format
+msgid "Denied Order"
+msgstr "أمر مرفوض"
+
+#. module: amcl_pos_stock
+#. openerp-web
+#: code:addons/amcl_pos_stock/static/src/js/amcl_pos_stock.js:0
+#: code:addons/amcl_pos_stock/static/src/js/amcl_pos_stock.js:0
+#: code:addons/amcl_pos_stock/static/src/js/amcl_pos_stock.js:0
+#, python-format
+msgid "Deny Order"
+msgstr "رفض الطلب"
+
+#. module: bi_pos_stock
+#. openerp-web
+#: code:addons/bi_pos_stock/static/src/js/bi_pos_stock.js:0
+#: code:addons/bi_pos_stock/static/src/js/bi_pos_stock.js:0
+#: code:addons/bi_pos_stock/static/src/js/bi_pos_stock.js:0
+#, python-format
+msgid "Deny Order() is Out of Stock."
+msgstr "أمر الرفض () غير متوفر."
+
+#. module: bi_pos_stock
+#: model:ir.model.fields,field_description:bi_pos_stock.field_pos_config__pos_deny_order
+msgid "Deny POS Order When Product Qty is goes down to"
+msgstr "رفض طلب نقاط البيع عندما تنخفض كمية المنتج إلى"
+
+#. module: bi_pos_stock
+#: model_terms:ir.ui.view,arch_db:bi_pos_stock.custom_pos_config_extended_form_view
+msgid "Deny pos order"
+msgstr "رفض طلب نقاط البيع"
+
+#. module: bi_pos_stock
+#: model_terms:ir.ui.view,arch_db:bi_pos_stock.custom_pos_config_extended_form_view
+msgid "Deny pos order when product quanity goes down to the entered quantity."
+msgstr "رفض أمر نقاط البيع عندما تنخفض كمية المنتج إلى الكمية التي تم إدخالها."
+
+#. module: bi_pos_stock
+#: model:ir.model.fields,field_description:bi_pos_stock.field_pos_config__pos_display_stock
+msgid "Display Stock in POS"
+msgstr "عرض المخزون في نقاط البيع"
+
+#. module: bi_pos_stock
+#. openerp-web
+#: code:addons/bi_pos_stock/static/src/js/bi_pos_stock.js:0
+#, python-format
+msgid "Empty Serial/Lot Number"
+msgstr "رقم تسلسلي / دفعة فارغ"
+
+#. module: bi_pos_stock
+#. openerp-web
+#: code:addons/bi_pos_stock/static/src/js/bi_pos_stock.js:0
+#: code:addons/bi_pos_stock/static/src/js/bi_pos_stock.js:0
+#: code:addons/bi_pos_stock/static/src/js/bi_pos_stock.js:0
+#, python-format
+msgid "Error: Out of Stock"
+msgstr "خطأ: غير متوفر بالمخزون"
+
+#. module: bi_pos_stock
+#: model:ir.model.fields.selection,name:bi_pos_stock.selection__pos_config__pos_stock_type__incoming
+msgid "Incoming Qty"
+msgstr "الكمية الواردة"
+
+#. module: bi_pos_stock
+#: model:ir.model.fields,field_description:bi_pos_stock.field_pos_order__location_id
+msgid "Location"
+msgstr "موقع"
+
+#. module: bi_pos_stock
+#. openerp-web
+#: code:addons/bi_pos_stock/static/src/xml/bi_pos_stock.xml:0
+#, python-format
+msgid "Ok"
+msgstr "موافق"
+
+#. module: bi_pos_stock
+#. openerp-web
+#: code:addons/bi_pos_stock/static/src/js/bi_pos_stock.js:0
+#, python-format
+msgid "One or more product(s) required serial/lot number."
+msgstr "واحد أو أكثر من المنتجات المطلوبة الرقم التسلسلي / الكثير."
+
+#. module: bi_pos_stock
+#. openerp-web
+#: code:addons/bi_pos_stock/static/src/xml/bi_pos_stock.xml:0
+#, python-format
+msgid "Ordered qty of One or more product(s) is more than available qty."
+msgstr "الكمية المطلوبة لمنتج واحد أو أكثر هي أكثر من الكمية المتوفرة."
+
+#. module: bi_pos_stock
+#: model:ir.model.fields.selection,name:bi_pos_stock.selection__pos_config__pos_stock_type__outgoing
+msgid "Outgoing Qty"
+msgstr "الكمية الصادرة"
+
+#. module: bi_pos_stock
+#: model:ir.model,name:bi_pos_stock.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "تكوين نقطة البيع"
+
+#. module: bi_pos_stock
+#: model:ir.model,name:bi_pos_stock.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "أوامر نقاط البيع"
+
+#. module: bi_pos_stock
+#: model:ir.model,name:bi_pos_stock.model_product_product
+msgid "Product"
+msgstr "منتج"
+
+#. module: bi_pos_stock
+#: model_terms:ir.ui.view,arch_db:bi_pos_stock.custom_pos_config_extended_form_view
+msgid "Product stock location type"
+msgstr "نوع موقع مخزون المنتج"
+
+#. module: bi_pos_stock
+#: model:ir.model.fields.selection,name:bi_pos_stock.selection__pos_config__pos_stock_type__available
+msgid "Qty Available"
+msgstr "الكمية المتاحة"
+
+#. module: bi_pos_stock
+#: model:ir.model.fields.selection,name:bi_pos_stock.selection__pos_config__pos_stock_type__onhand
+msgid "Qty on Hand"
+msgstr "الكمية في متناول اليد"
+
+#. module: bi_pos_stock
+#: model:ir.model,name:bi_pos_stock.model_stock_quant
+msgid "Quants"
+msgstr "كوانتس"
+
+#. module: bi_pos_stock
+#: model:ir.model.fields,help:bi_pos_stock.field_pos_config__pos_stock_type
+msgid "Seller can display Different stock type in POS."
+msgstr "يمكن للبائع عرض نوع مخزون مختلف في نقاط البيع."
+
+#. module: bi_pos_stock
+#: model:ir.model.fields,field_description:bi_pos_stock.field_pos_config__show_stock_location
+msgid "Show Stock Of"
+msgstr "عرض مخزون"
+
+#. module: bi_pos_stock
+#: model_terms:ir.ui.view,arch_db:bi_pos_stock.custom_pos_config_extended_form_view
+msgid "Stock Configuration in POS"
+msgstr "تكوين المخزون في نقاط البيع"
+
+#. module: bi_pos_stock
+#: model:ir.model.fields,field_description:bi_pos_stock.field_pos_config__stock_location_id
+msgid "Stock Location"
+msgstr "موقع المخزون"
+
+#. module: bi_pos_stock
+#: model_terms:ir.ui.view,arch_db:bi_pos_stock.custom_pos_config_extended_form_view
+msgid "Stock Location Configuration"
+msgstr "تكوين موقع المخزون"
+
+#. module: bi_pos_stock
+#: model:ir.model.fields,field_description:bi_pos_stock.field_pos_config__pos_stock_type
+#: model_terms:ir.ui.view,arch_db:bi_pos_stock.custom_pos_config_extended_form_view
+msgid "Stock Type"
+msgstr "نوع المخزون"
+
+#. module: bi_pos_stock
+#: model_terms:ir.ui.view,arch_db:bi_pos_stock.custom_pos_config_extended_form_view
+msgid "Stock location used for inventory"
+msgstr "موقع المخزون المستخدم للمخزون"
+
+#. module: bi_pos_stock
+#: model_terms:ir.ui.view,arch_db:bi_pos_stock.custom_pos_config_extended_form_view
+msgid "Stock type show up in POS screen."
+msgstr "يظهر نوع المخزون في شاشة POS."
+
+#. module: bi_pos_stock
+#: code:addons/bi_pos_stock/models/bi_pos_stock.py:0
+#, python-format
+msgid ""
+"This transfer has been created from the point of sale session: <a href=# "
+"data-oe-model=pos.order data-oe-id=%d>%s</a>"
+msgstr ""
+"تم إنشاء هذا التحويل من جلسة نقطة البيع: <a href=# "
+"data-oe-model=pos.order data-oe-id=%d>%s</a>"
